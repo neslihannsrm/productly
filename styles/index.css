@@ -1,0 +1,65 @@
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+.header{
+    width: 100%;
+    max-width: 1400px;
+    padding-top: 20px; 
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    
+}
+.nav_btn1{
+    color: #173A56;
+    border-color: #BCD0E5;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 11px 11px;
+    font-weight: 600;
+}
+.nav_btn2{
+    color: #ffffff;
+    background-color: #FF9900;
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+    padding: 11px 11px;
+    font-weight: 600;
+}
+.nav>li>a{
+    text-decoration: none;
+    margin-left: 24px;
+    color: #2F281E;
+    font-weight: 400;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo_img {
+    background-image: url(../images/productly\ logo.png);
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.logo_text_img{
+    background-image: url(../images/Productly-text-logo.png);
+    display: block;
+    width: 145px;
+    height: 30px;
+}
